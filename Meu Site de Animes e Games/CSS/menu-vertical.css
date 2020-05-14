@@ -1,0 +1,32 @@
+/* Barra de navegação vertical */
+
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style-type: none; 
+}
+
+ul a{
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url('../imagens/menu.png') no-repeat left bottom;
+}
+
+/* Metódo usado com Linguagem de Programação */
+a:hover, .selecionado a{
+	background-position: right bottom;
+	background-color: #f99200;
+	color:#fff; 
+}
+
+/*Limpar formatações padrões*/
+* {
+	margin: 0;
+	padding: 0;
+}

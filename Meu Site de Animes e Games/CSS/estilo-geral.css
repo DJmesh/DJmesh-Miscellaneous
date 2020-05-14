@@ -1,0 +1,99 @@
+/* Limpar formatações padrões */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Menu Inteligente */
+
+#menu{
+	background: #f2f2f2;
+	border: 3px hidden ;
+	position: fixed;
+	top: 0;
+	right: 0px;
+	margin: 0px;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style-type: none; 
+}
+
+ul a{
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: rgba(255, 255, 255, .2);
+	box-shadow: 0 5px 15px rgba(0,0,0.5);
+	background: #f7b600 url('../imagens/menu.png') no-repeat left bottom;
+}
+
+/* Metódo usado com Linguagem de Programação */
+a:hover, .selecionado a{
+	background-position: right bottom;
+	background-color: #f99200;
+	color:#fff; 
+}
+
+/* Corpo do Site */
+
+body{
+	background: url('../imagens/wallpaper.png');
+	background-size: cover;
+	background-attachment: fixed;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#cabecalho{
+	background: rgba(255, 255, 255, .2);
+	box-shadow: 0 5px 15px rgba(0,0,0.5);
+	width: 30%;
+	margin: 280px auto;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+}
+
+
+.noticias{
+	background: #041517;
+	width: 250px;
+	float: left;
+}
+
+#noticias{
+	width: 810px;
+	text-align: center;
+	background: #041517;
+	color: white;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.indicacoes{
+	background: #041517;
+	width: 530px;
+}
+
+#indicacoes{
+	width: 535px;
+	text-align: center;
+	background: #041517;
+	color: white;
+	margin: 0;
+	padding: 0;
+	float: right;
+	position: absolute;
+}
+
+.clear{
+	clear: both;
+}
